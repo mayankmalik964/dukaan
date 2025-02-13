@@ -51,8 +51,8 @@ display: none;
 position: relative;
 top: 7vmax;
 color: rgb(8, 8, 8);
-width: 44vmax;
-
+z-index: 10;
+position: fixed;
 background-color: rgb(255, 255, 255);
 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 flex-wrap: wrap;
@@ -63,29 +63,31 @@ flex-wrap: wrap;
     font-size: medium;
     margin: 1vmax 1vmax;
   padding: 5px 5px;
-    width: 10vmax;
+ width: 100px;
+    z-index: 5;
 }
 #product >div:hover{
 background-color: rgb(228, 228, 228);
 }
 #company {
     display: flex;
+    display: none;
     position: relative;
+    top: 7vmax;
     color: rgb(8, 8, 8);
-    width: 44vmax;
- 
-background-color: rgb(255, 255, 255);
-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-flex-wrap: wrap;
+    z-index: 10;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-wrap: wrap;
 }
 #company >div{
-    position: relative;
     display: flex;
     font-size: medium;
-    top: 7vmax;
     margin: 1vmax 1vmax;
   padding: 5px 5px;
-    width: 18vmax;
+   width: 100px;
+    z-index: 5;
 }
 #company >div:hover{
     background-color: rgb(245, 241, 241);
